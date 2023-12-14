@@ -1,0 +1,625 @@
+body,html {
+  width: 100%;  
+  padding: 0px;
+  margin: 0px;
+}
+.body {
+    font-family: "montserrat", sans-serif;
+}
+.grid-container {
+    align-items:center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #6B0504 ;
+    display: flex;
+    width: 100%;
+    margin:auto;
+    
+}
+.kasamaLogo2 {
+width: auto;
+height:auto;
+display:flex;
+padding: 10px;
+}
+.logosection{
+  background-color: rgba(0, 0, 0, 0.4);
+  background-image:url("../images/pexels-ella-olsson-3026808.jpg");
+  background-size: 100%;
+  background-blend-mode: multiply;
+  width: 100%;
+  padding-top: 100px;
+  text-align: center;
+  padding-bottom: 50px;
+  
+}
+.textonimage {
+  font-family: "montserrat", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: #EBEFCD;
+  text-align: center;
+  line-height: 150%;
+  margin-top: 50px; 
+  padding: 10px; 
+}
+.secondtext {
+  text-align: center;
+  color:#772408;
+  font-family: "montserrat", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  margin-top: 10px;
+
+}
+
+.kasamalogo {
+  background-color: rgba(234, 234, 203, 0.9);
+  height: 398px;
+  width: 398px;
+  margin:auto;
+  border-radius:100%;
+  padding: 10px;
+  
+}
+.nav {
+    color:#F9DA93;
+    padding: 10px 15px;
+    margin: 5px 5px;
+    font-family: "montserrat", sans-serif;
+    font-weight: 600;
+    font-style: normal;    
+    float: right;
+    margin-left: auto;
+    
+}
+.nav a {
+  text-decoration: none;
+  color:#F9DA93;
+  padding: 0px 50px;
+}
+
+.meals-container {
+  max-width:100%;
+  margin: auto;
+  background:#EFEFD3;
+  padding-top:20px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  display: table;
+  max-width: 1440px;
+  height: 443px;
+}
+.menu-meals { 
+  display:flex; 
+  padding-left: 100px; 
+  flex-direction: row;
+}
+.column {
+  display:flex; 
+  width:380px;
+  height:450px;
+  border-radius:40%;
+  background-repeat: no-repeat;   
+  background-size: 500px;  
+  background-position-x: center;
+  background-blend-mode: multiply;
+  margin: 10px;
+}
+
+.textonimage3{
+  justify-content: center;
+  align-items: center;
+  color:#FFF;
+  font-size: 2em;
+  font-family: "montserrat", sans-serif;
+  font-weight: 300;
+  font-style: normal;   
+  background-color: rgba(0, 0, 0, 0.4); 
+}
+
+.image-grid{
+  max-width: 1440px;
+  margin: auto;
+}
+
+.breakfastphoto{
+  background-image:url("../images/breakfastphoto.jpg");  
+  
+}
+.lunchphoto{
+  background-image:url("../images/lunchphoto.jpg");
+  background-size: 600px
+  
+}
+.pasteriesphoto{
+  background-image:url("../images/pastriesphoto.jpg");  
+}
+
+.column-p {
+  position: absolute;
+  width:100%;
+  bottom: 10px;
+  color: white;
+  font-size: 1em;
+  padding: 5px 0;
+
+}
+.rounded-img{
+  border-radius: 50%;
+}
+.textonimage2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.menufavorites {
+  font-family: "montserrat", sans-serif;
+  font-weight: 300;
+  font-style: normal; 
+  font-size: 16px ;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+.title {
+  color:#772408;
+  text-align: center;
+  font-size: 26px;
+  margin-bottom: 30px;
+  padding: 20px;
+}
+.menucontent {
+  display: flex;
+  margin-bottom: 30px;
+  width: 100%;
+}
+.menucolumn {
+  width: 50%;
+  padding: 0 15px; 
+  max-width: 900px; 
+  margin: auto;
+  justify-content: space-between;
+  text-align: left;
+}
+.mititle{
+  color: #849831;
+  margin-bottom: 10px;
+  font-size: 20px;  
+}
+
+.midescription{
+  font-size: 16px; 
+  margin-bottom: 20px; 
+}
+
+.menufooter {
+text-align: center;
+padding: 50px;
+}
+.button {
+  color: #849831;
+  font-family: "montserrat", sans-serif;
+  font-weight: 600;
+  font-style: normal;  
+  font-size: 15px; 
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid #772408;
+  border-radius: 30px;
+  padding: 15px;  
+}
+
+.image-grid img{
+ margin: 7px;
+ object-fit: cover;
+}
+.quote1 {
+  font-family: "rollerscript-rough", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 30px;
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 90px;
+
+}
+.dots{
+  text-align: center;
+  font-family: "montserrat", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #772408;
+  font-size: 80px;
+  letter-spacing:5px;
+  margin: 30px;
+}
+.storysection{
+  background-color: #FFFEDB;
+}
+.story{
+  color:#772408;
+  text-align: center; 
+  font-size: 26px;
+  padding-top: 40px;
+}
+.storytext{
+  font-size:20px; 
+  text-align: center;
+  background-color: #FFFEDB;
+  padding: 15px;
+  margin: 50px;
+  line-height: 2.5;
+}
+.mlogosection {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  padding-bottom: 40px;
+}
+.mlogo{
+  width: 250px;
+  height: 80px; 
+  padding:20px;
+}
+
+.restaurant-container{
+  background-color: rgba(0, 0, 0, 0.4);
+  background-blend-mode: multiply; 
+  background-image:url("../images/restaurant-inside2.png");
+  text-align: center;
+  display: block;
+  padding-top: 300px;
+  padding-bottom: 300px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.textexperience {
+  background-color: rgba(90, 15, 15, 0.899);
+  color: white;
+  font-size: 14px;
+  display: block;
+  border-radius: 30px;
+  padding: 20px;
+  width: 400px;
+  margin: auto;
+  font-family: "montserrat", sans-serif;
+  font-weight: 500;
+  font-style: normal; 
+  line-height: 2.5;
+}
+
+.story {
+  font-family: "montserrat", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size:40px;
+}
+.storytext {
+  font-family: "montserrat", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.main-banner {
+    background-image: url(https://stock.adobe.com/search/images?k=filipino+food&search_type=usertyped&asset_id=481335799);
+    background-size:cover;
+    background-position: center center;
+    height: 400px;
+}
+.banner-content{
+    max-width: 500px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.material-symbols-outlined {  
+    font-variation-settings:  
+        'FILL' 1,  
+        'wght' 400,  
+        'GRAD' 0,  
+        'opsz' 24
+}
+.nav button {
+    display: none;
+}
+.bottomcontainer {
+  align-items:center;
+  background-color: #6B0504 ;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+}
+.socialmedia {
+  width: 120px;
+  height: 50px;
+  display:flex;
+  float:right;
+  justify-content: end;
+  gap: 6px;
+  padding: 10px;
+}
+
+
+
+@media screen and (max-width: 1366px) and (orientation:landscape) {
+
+  .image-grid{
+    max-width: 1366px;
+    margin: auto;
+  }
+
+  .image-grid img {
+    width: 438px;
+    height:280px;
+  }
+
+  .meals-container {
+    max-width:1366px;
+    width: 100%;
+  }
+
+}
+
+
+@media screen and (max-width: 1280px) {
+
+  .image-grid{
+    max-width: 1280px;
+    margin: auto;
+  }
+
+  .image-grid img {
+    width: 410px;
+    height:280px;
+  }
+
+  .meals-container {
+    max-width:1280px; 
+    padding-left: 0px;    
+  }
+
+  .menu-meals{
+    padding-left:35px; 
+  }
+
+  .restaurant-container{
+    padding-top: 250px;
+    padding-bottom: 250px;
+  }
+
+}
+
+
+@media screen and (max-width: 896px) {
+  .logosection{
+    padding-top: 25px;
+    padding-bottom: 10px;
+  }
+
+  .nav a {
+    font-size: 12px;
+    padding: 0px 20px;
+  }
+
+  .textonimage{
+    margin-top: 15px;
+  }
+
+  
+
+  .kasamalogo {    
+    height: 350px;
+    width: 350px;
+  }
+
+  .meals-container {
+    max-width:896px;
+    width: 100%;
+  }
+
+  .menu-meals {    
+    flex-direction: column;
+    padding-left: 0px;     
+  }
+
+.column{
+  margin:auto;
+  margin-top : 10px;
+  margin-bottom : 10px;
+}
+
+.menucontent{
+  margin-bottom: 0px;
+}
+
+  .image-grid{
+    max-width: 890px;
+    margin: auto;    
+  }
+  .image-grid img {
+    width: 428px;
+    height: 260px;
+  }
+
+.storytext{
+  margin-top: 25px;
+  margin-bottom: 0px;
+  line-height: 1.6;
+}
+
+.restaurant-container{
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+}
+
+
+
+@media screen and (max-width: 1366px) and (orientation:portrait) {
+  .logosection{
+    padding-top: 25px;
+    padding-bottom: 10px;
+  }
+
+  .nav a {
+    font-size: 12px;
+    padding: 0px 20px;
+  }
+
+  .textonimage{
+    margin-top: 15px;
+  }
+
+  
+
+  .kasamalogo {    
+    height: 350px;
+    width: 350px;
+  }
+
+  .meals-container {
+    max-width:1366px;
+    width: 100%;
+  }
+
+  .menu-meals {    
+    flex-direction: column;
+    padding-left: 0px;     
+  }
+
+.column{
+  margin:auto;
+  margin-top : 10px;
+  margin-bottom : 10px;
+}
+
+.menucontent{
+  margin-bottom: 0px;
+}
+
+  .image-grid{
+    max-width: 768px;
+    margin: auto;    
+  }
+  .image-grid img {
+    width: 368px;
+    height: 240px;
+  }
+
+.storytext{
+  margin-top: 25px;
+  margin-bottom: 0px;
+  line-height: 1.6;
+}
+
+.restaurant-container{
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+}
+
+  @media screen and (max-width: 414px) {
+    .image-grid{
+      max-width: 414px;
+      margin: auto;
+    }
+    .image-grid img {
+      width: 96%;
+      height:200px;
+    }
+
+    .meals-container {
+      max-width:414px;
+      width: 100%;
+    }
+
+    .logosection{
+      padding-top: 15px;
+      padding-bottom: 0px;
+    }
+  
+    .nav{
+      margin:0;
+    }
+    .nav a {
+      font-size: 11px;
+      padding: 0px 50px;
+      line-height: 2;
+    }
+    
+    .nav>a{
+      float: right;
+      position: relative;
+      top: -50px;
+      line-height:0;      
+    }
+  
+    .textonimage{  
+      font-size: 12px;
+      margin-top:0px;
+      margin-bottom:0px;
+      padding: 20px;
+    }
+  
+  
+    .kasamalogo {    
+      height: 150px;
+      width: 150px;
+    }
+  
+    .meals-container {
+      max-width:414px;
+      width: 100%;
+    }
+
+    .menucontent{
+      flex-direction: column;
+    }
+    .menucolumn{
+      width:95%;
+      max-width:390px;
+    }
+  
+    .menu-meals {    
+      flex-direction: column;
+      padding-left: 0px;     
+    }
+  .textonimage3{
+    text-align:center;
+  }
+
+  .column{
+    margin:auto;
+    margin-top : 10px;
+    margin-bottom : 10px;
+    width: 200px;
+    height: 250px;
+    background-size:350px;
+  }
+  
+  .menucontent{
+    margin-bottom: 0px;
+  }
+     
+  
+  .storytext{
+    margin-top: 25px;
+    margin-bottom: 0px;
+    line-height: 2;
+  }
+  
+  .restaurant-container{
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .textexperience {    
+    font-size: 12px;
+    width: 350px;    
+    line-height: 1.6;
+}
+}
